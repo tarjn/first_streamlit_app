@@ -34,7 +34,7 @@ my_cur.execute("SELECT * from fruit_load_list")
 my_data_row = my_cur.fetchall()
 streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
-
+streamlit.write('Thanks for adding',add_my_fruit)
 
 
 
